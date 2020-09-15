@@ -81,7 +81,7 @@ UnboundedIndexType -> InvoiceUnboundedIndexType
 - új ERROR, ha az electronicInvoicehash értéke helytelen és a completenessIndicator értéke true
 - Új ERROR: ha a completenessIndicator értéke true akkor a mergedItemIndicator értéke nem lehet true
 - Új ERROR: ha a completenessIndicator értéke true akkor a vevő nem lehet magánszemély
-- új ERROR: ha az advancePayment értéke true, akkor az advancePaymentData csomópont megadása kötelező
+- új ERROR: ha az advanceIndicator értéke true, akkor az advancePaymentData csomópont megadása kötelező
 - új ERROR: NORMAL vagy AGGREGATE számlának nem lehet lineAmountsSimplified sora vagy SIMPLIFIED számlának nem lehet lineAmountsNormal sora
 - új ERROR: NORMAL vagy AGGREGATE számlában nem lehet vatContent értéket adni vagy SIMPLIFIED számlában nem lehet vatPercentage értéket adni a VatRateType típuson belül
 - új ERROR: egy általános átmeneti hibakód is bekerül a rendszerbe, melyet első alkalommal a rendszer akkor fog visszaadni, amikor a elektronikus számlával egyenértékű 3.0-ás adatszolgáltatás érkezik 2021.01.01. előtt
